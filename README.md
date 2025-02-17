@@ -99,18 +99,6 @@
      });
      ```
 
-## Step 4: Deploy and Run the Script
-1. **Deploy the Suitelet**:
-   - Navigate to the script record in NetSuite.
-   - Go to the `Deployments` subtab and click `Edit`.
-   - Set the deployment settings (e.g., status, parameters) and click `Save`.
-   - Note the external URL of the Suitelet, which you will use to access the Suitelet.
 
-2. **Access the Suitelet URL**:
-   - Open a web browser and navigate to the external URL of the Suitelet.
-   - You should see a form with a "Download" button.
-
-3. **Download the File**:
-   - Click the "Download" button to generate the Excel file and prompt the user to download it.
 
 By following these steps, you can successfully use SheetJS in NetSuite to create and manage Excel sheets.

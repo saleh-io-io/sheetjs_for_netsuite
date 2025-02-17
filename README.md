@@ -14,7 +14,7 @@
    - In the `lib` folder, create a new file named `JsLibraryConfig.json`.
    - Add the following content to `JsLibraryConfig.json`:
      ```json
-     {
+       {
        "paths": {
          "sheetjs": "./lib/xlsx.full.min.js"
        }

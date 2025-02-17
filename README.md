@@ -16,9 +16,9 @@
      ```json
        {
        "paths": {
-         "sheetjs": "./lib/xlsx.full.min.js"
+        "sheetjs": "/SuiteScripts/lib/xlsx.full.min"
        }
-     }
+      }
      ```
 
 2. **Add `xlsx.full.min.js`**:

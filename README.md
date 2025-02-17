@@ -16,7 +16,7 @@
      ```json
      {
        "paths": {
-         "sheetjs": "./xlsx.full.min.js"
+         "sheetjs": "./lib/xlsx.full.min.js"
        }
      }
      ```
@@ -34,7 +34,7 @@
    - In the script file, add the following line at the top to reference the JSON configuration file:
      ```javascript
      /**
-      * @NAmdConfig ./JsLibraryConfig.json
+      * @NAmdConfig ./lib/JsLibraryConfig.json
       */
      ```
 
@@ -44,7 +44,7 @@
      ```javascript
      /**
       * @NApiVersion 2.x
-      * @NAmdConfig ./JsLibraryConfig.json
+      * @NAmdConfig ./lib/JsLibraryConfig.json
       * @NScriptType Suitelet
       */
      define(['N/file', 'N/ui/serverWidget', 'sheetjs'], function(file, serverWidget, XLSX) {

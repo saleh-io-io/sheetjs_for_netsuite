@@ -22,7 +22,6 @@
      ```
 
 2. **Add `xlsx.full.min.js`**:
-   - Download the `xlsx.full.min.js` file from the [SheetJS GitHub repository](https://github.com/SheetJS/sheetjs).
    - Upload the `xlsx.full.min.js` file to the `lib` folder in the File Cabinet.
 
 ## Step 3: Reference SheetJS in Your SuiteScript

@@ -47,7 +47,7 @@
       * @NAmdConfig ./lib/JsLibraryConfig.json
       * @NScriptType Suitelet
       */
-     define(['N/file', 'N/ui/serverWidget', 'sheetjs'], function(file, serverWidget, XLSX) {
+     define(['N/file', 'N/ui/serverWidget', 'sheetjs'], function(file, serverWidget, sheetJs) {
        function onRequest(context) {
          if (context.request.method === 'GET') {
            // Create a form with a download button

@@ -61,7 +61,7 @@
          } else {
            try {
              // Create a new workbook
-             var wb = XLSX.utils.book_new();
+             var wb = sheetJs.utils.book_new();
 
              // Create a new worksheet
              var ws_data = [
@@ -69,13 +69,13 @@
                [1, 2],
                [3, 4]
              ];
-             var ws = XLSX.utils.aoa_to_sheet(ws_data);
+             var ws = sheetJs.utils.aoa_to_sheet(ws_data);
 
              // Add the worksheet to the workbook
-             XLSX.utils.book_append_sheet(wb, ws, 'Sheet1');
+             sheetJs.utils.book_append_sheet(wb, ws, 'Sheet1');
 
              // Write the workbook to a Base64 string
-             var wbout = XLSX.write(wb, { bookType: 'xlsx', type: 'base64' });
+             var wbout = sheetJs.write(wb, { bookType: 'xlsx', type: 'base64' });
 
              // Create a new file in NetSuite
              var newFile = file.create({
